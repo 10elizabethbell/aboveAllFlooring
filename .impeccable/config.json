@@ -8,6 +8,24 @@
         "value": "roboto",
         "createdAt": "2026-10-18T21:43:34.656Z",
         "reason": "Ellie's pitch-site house style (ellie-taste.md §2) mandates the system font stack; Roboto is only the Android fallback in it"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-18T21:57:10.740Z",
+        "reason": "Claude: only hit is .hint (wall-colored text on the carpet canvas the static check can't see); measured 6.57:1 Greige / 8.27:1 Oatmeal in Playwright"
+      },
+      {
+        "rule": "gray-on-color",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-18T21:57:10.810Z",
+        "reason": "Claude: only hit is near-white ink #ece7de on #253353 (~12:1), not gray"
       }
     ]
   }
