@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T22:00:26+00:00",
+  "title": "Design System: Above All Flooring",
+  "extensions": {
+    "colorMeta": {
+      "wall": {
+        "role": "neutral",
+        "displayName": "Basement Navy Wall",
+        "canonical": "oklch(28.4% 0.051 265)",
+        "tonalRamp": [
+          "#040a1b",
+          "#17233d",
+          "#323f5b",
+          "#4f5d7b",
+          "#6e7d9c",
+          "#8f9fbf",
+          "#b4c4e6",
+          "#deefff"
+        ]
+      },
+      "wall-2": {
+        "role": "neutral",
+        "displayName": "Raised Wall",
+        "canonical": "oklch(32.5% 0.060 265)",
+        "tonalRamp": [
+          "#040a1b",
+          "#18233d",
+          "#303f60",
+          "#4d5d80",
+          "#6c7da2",
+          "#8c9ec5",
+          "#b1c4ec",
+          "#dbefff"
+        ]
+      },
+      "wall-3": {
+        "role": "neutral",
+        "displayName": "Wall Rule",
+        "canonical": "oklch(38.6% 0.071 267)",
+        "tonalRamp": [
+          "#050a1b",
+          "#19233d",
+          "#313e62",
+          "#4c5c86",
+          "#6a7ca8",
+          "#8b9dcc",
+          "#b0c3f3",
+          "#d9eeff"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Control Edge",
+        "canonical": "oklch(61.2% 0.031 263)",
+        "tonalRamp": [
+          "#050b18",
+          "#1c2433",
+          "#374051",
+          "#545e70",
+          "#747e90",
+          "#949fb2",
+          "#bac5d9",
+          "#e4efff"
+        ]
+      },
+      "trim": {
+        "role": "neutral",
+        "displayName": "Baseboard Trim",
+        "canonical": "oklch(94.1% 0.010 82)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#27241e",
+          "#423f3a",
+          "#615d57",
+          "#807d76",
+          "#a29e97",
+          "#c7c4bd",
+          "#f2eee7"
+        ]
+      },
+      "trim-shade": {
+        "role": "neutral",
+        "displayName": "Trim Shadow",
+        "canonical": "oklch(87.8% 0.015 81)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#28231c",
+          "#443f37",
+          "#625d54",
+          "#827c73",
+          "#a39e94",
+          "#c9c3b9",
+          "#f4eee3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm Ink",
+        "canonical": "oklch(92.9% 0.013 82)",
+        "tonalRamp": [
+          "#0e0b06",
+          "#27241d",
+          "#433f38",
+          "#615d55",
+          "#817d75",
+          "#a29e95",
+          "#c8c3bb",
+          "#f3eee5"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(81.6% 0.022 266)",
+        "tonalRamp": [
+          "#070b15",
+          "#1f242f",
+          "#3a404c",
+          "#585e6b",
+          "#777d8b",
+          "#989ead",
+          "#bdc4d3",
+          "#e7effe"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "oklch(70.8% 0.028 264)",
+        "tonalRamp": [
+          "#060b17",
+          "#1d2432",
+          "#38404f",
+          "#565e6e",
+          "#757d8f",
+          "#969fb1",
+          "#bbc4d7",
+          "#e5efff"
+        ]
+      },
+      "carpet": {
+        "role": "secondary",
+        "displayName": "Fresh Greige Carpet",
+        "canonical": "oklch(78.4% 0.027 71)",
+        "tonalRamp": [
+          "#120901",
+          "#2c2215",
+          "#493d30",
+          "#685b4d",
+          "#887b6c",
+          "#aa9c8c",
+          "#d0c2b1",
+          "#fbecdb"
+        ]
+      },
+      "chalk": {
+        "role": "primary",
+        "displayName": "Chalk-Line Blue",
+        "canonical": "oklch(76.7% 0.120 256)",
+        "tonalRamp": [
+          "#020b1b",
+          "#12243c",
+          "#284161",
+          "#3f5f89",
+          "#587fb3",
+          "#72a1de",
+          "#90c7ff",
+          "#b9f2ff"
+        ]
+      },
+      "err": {
+        "role": "error",
+        "displayName": "Error Peach",
+        "canonical": "oklch(83.8% 0.090 29)",
+        "tonalRamp": [
+          "#180503",
+          "#391915",
+          "#5d322b",
+          "#844c44",
+          "#ac685e",
+          "#d0897e",
+          "#f9aea3",
+          "#ffd8cc"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only; 900 uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s; 900 uppercase, balanced."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows (800 uppercase); step h3s use 900 at clamp(20px,5.4vw,26px)."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero promise, ink-soft."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, form labels, header phone, carpet hint."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Wordmark beside the logo mark, swatch label, send note."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 18px 40px rgba(6,10,24,.45)",
+        "purpose": "Quote panel; framed photo at >=700px (--shadow-lift)."
+      },
+      {
+        "name": "baseboard",
+        "value": "0 2px 2px rgba(20,16,10,.35), 0 6px 12px rgba(20,16,10,.22)",
+        "purpose": "Trim strip casting onto the carpet."
+      },
+      {
+        "name": "baseboard-up",
+        "value": "0 -3px 8px rgba(20,16,10,.25)",
+        "purpose": "Baseboard band at the bottom of the work photo."
+      },
+      {
+        "name": "swatch",
+        "value": "0 3px 8px rgba(8,12,20,.45)",
+        "purpose": "Swatch at rest."
+      },
+      {
+        "name": "swatch-selected",
+        "value": "0 0 0 3px var(--wall), 0 0 0 5px var(--trim), 0 6px 12px rgba(8,12,20,.5)",
+        "purpose": "Selected swatch double ring."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px rgba(127,182,255,.25)",
+        "purpose": "Input/textarea focus, with chalk border."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid var(--chalk); outline-offset: 3px",
+        "purpose": "Global :focus-visible."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Swatch lift, arrow shift, chalk fades (--ease)."
+      },
+      {
+        "name": "ui-color",
+        "value": ".2s",
+        "purpose": "Color/border transitions on controls."
+      },
+      {
+        "name": "press",
+        "value": "transform .15s; translateY(1px)",
+        "purpose": "Button :active."
+      },
+      {
+        "name": "carpet",
+        "value": "CELL 4|5, SHADE .16, RELAX .055/s, BRUSH_R 30|38px, LANE 54|70px, VAC_SPEED 300|420px/s, IDLE 3.5s, LIGHT [.22,-.975]",
+        "purpose": "Brushable pile canvas (phone|desktop at 700px). Brush .55 touch/pressed, .32 hover, vacuum .42."
+      },
+      {
+        "name": "chalk-line",
+        "value": "N 64, SPEED 480, DAMP 2.6/s, PLUCK 220px/s, SNAP -22px",
+        "purpose": "String wave sim: snaps once at >90% visible, plucked by crossing pointer, sleeps below energy .002."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "No vacuum (own brushing still works), instant swatch color, chalk lines pre-snapped and inert, no control transforms, no smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "700px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      },
+      {
+        "name": "hover",
+        "value": "(hover:hover)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Fill Button",
+      "kind": "button",
+      "refersTo": "button-fill",
+      "description": "Primary action (hero \"Get a quote\", form submit). Trim fill; chalk on hover.",
+      "html": "<a class=\"ds-btn ds-btn-fill\" href=\"#\">Get a quote</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 24px;border-radius:12px;font:800 17px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid var(--trim,#efebe4);cursor:pointer;transition:background .2s,color .2s,border-color .2s,transform .15s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--chalk,#7fb6ff);outline-offset:3px}.ds-btn-fill{background:var(--trim,#efebe4);color:var(--wall,#1d2943)}.ds-btn-fill:hover{background:var(--chalk,#7fb6ff);border-color:var(--chalk,#7fb6ff)}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action (hero text link, Facebook, copy). Outlined; chalk border and text on hover.",
+      "html": "<a class=\"ds-btn ds-btn-line\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4h0A1.5 1.5 0 0 1 4 14.5z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>Text a photo of the room</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 24px;border-radius:12px;font:800 17px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid var(--trim,#efebe4);cursor:pointer;transition:background .2s,color .2s,border-color .2s,transform .15s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--chalk,#7fb6ff);outline-offset:3px}.ds-btn svg{flex:none}.ds-btn-line{background:transparent;color:var(--ink,#ece7de)}.ds-btn-line:hover{border-color:var(--chalk,#7fb6ff);color:var(--chalk,#7fb6ff)}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "description": "Logo mark and wordmark left, tap-to-call number top right.",
+      "html": "<div class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-mark\"></span><b>Above All<br>Flooring</b></a><a class=\"ds-phone\" href=\"tel:+16099236269\">(609) 923-6269</a></div>",
+      "css": ".ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;background:var(--wall,#1d2943);color:var(--ink,#ece7de);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-brand{display:flex;align-items:center;gap:10px;min-height:44px;color:inherit;text-decoration:none}.ds-mark{width:54px;height:21px;background:currentColor;border-radius:3px}.ds-brand b{font-weight:900;font-size:13.5px;letter-spacing:.08em;line-height:1.1;text-transform:uppercase}.ds-phone{font-weight:800;font-size:17px;color:inherit;text-decoration:none;min-height:44px;display:flex;align-items:center;border-bottom:2px solid transparent;transition:border-color .2s,color .2s}.ds-phone:hover{color:var(--chalk,#7fb6ff);border-bottom-color:var(--chalk,#7fb6ff)}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Tappable room row; only the arrow circle changes on hover/focus.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span>Basement</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 12h13M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span>Movie room</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 12h13M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--wall-3,#33426a);background:var(--wall,#1d2943)}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px;padding:12px 2px;color:var(--ink,#ece7de);text-decoration:none;border-bottom:1px solid var(--wall-3,#33426a);font:800 clamp(20px,5.6vw,28px)/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-transform:uppercase;letter-spacing:.01em}.ds-row:hover,.ds-row:focus-visible{outline:none;background:none;box-shadow:none}.ds-arrow{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--wall-3,#33426a);color:var(--ink,#ece7de);transition:background .2s,color .2s,transform .25s cubic-bezier(.16,1,.3,1)}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--chalk,#7fb6ff);color:var(--wall,#1d2943);transform:translateX(3px)}.ds-row:focus-visible .ds-arrow{outline:3px solid var(--chalk,#7fb6ff);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Form input; chalk border on hover, chalk border plus halo on focus.",
+      "html": "<label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" type=\"text\" placeholder=\"e.g. light greige\">",
+      "css": ".ds-label{display:block;font:800 17px/1.3 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;color:var(--ink,#ece7de);margin-bottom:8px}.ds-input{width:100%;box-sizing:border-box;font:500 17px/1.3 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;color:var(--ink,#ece7de);background:var(--wall,#1d2943);border:2px solid var(--line,#7a8497);border-radius:10px;padding:14px;min-height:52px;caret-color:var(--chalk,#7fb6ff);transition:border-color .2s,box-shadow .2s}.ds-input::placeholder{color:var(--ink-faint,#98a1b3)}.ds-input:hover{border-color:var(--chalk,#7fb6ff)}.ds-input:focus{outline:none;border-color:var(--chalk,#7fb6ff);box-shadow:0 0 0 3px rgba(127,182,255,.25)}"
+    },
+    {
+      "name": "Room Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Form radio chip; chalk border on hover/focus, trim fill when checked.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-r\" checked><span>Basement</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-r\"><span>Family room</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-r\"><span>Other</span></label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px}.ds-chip{position:relative}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px}.ds-chip span{display:flex;align-items:center;min-height:48px;padding:0 16px;border-radius:10px;border:2px solid var(--line,#7a8497);background:var(--wall,#1d2943);color:var(--ink,#ece7de);font:700 17px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;cursor:pointer;transition:border-color .2s,background .2s,color .2s}.ds-chip span:hover,.ds-chip input:focus-visible+span{border-color:var(--chalk,#7fb6ff)}.ds-chip input:checked+span{background:var(--trim,#efebe4);color:var(--wall,#1d2943);border-color:var(--trim,#efebe4)}.ds-chip input:checked+span:hover,.ds-chip input:checked:focus-visible+span{border-color:var(--chalk,#7fb6ff)}"
+    },
+    {
+      "name": "Carpet Swatch",
+      "kind": "custom",
+      "refersTo": "swatch",
+      "description": "Showroom swatch toggle; rises and gets a wall/trim double ring when selected.",
+      "html": "<div class=\"ds-sws\"><button class=\"ds-sw\" style=\"background:#c4b6a6\" aria-pressed=\"true\" aria-label=\"Greige\"></button><button class=\"ds-sw\" style=\"background:#d0c4ae\" aria-pressed=\"false\" aria-label=\"Oatmeal\"></button><button class=\"ds-sw\" style=\"background:#687280\" aria-pressed=\"false\" aria-label=\"Slate\"></button></div>",
+      "css": ".ds-sws{display:flex;gap:8px;padding:12px;background:var(--wall,#1d2943)}.ds-sw{width:44px;height:44px;border-radius:9px;border:0;cursor:pointer;box-shadow:0 3px 8px rgba(8,12,20,.45);transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-sw:hover{transform:translateY(-3px)}.ds-sw[aria-pressed=\"true\"]{transform:translateY(-5px);box-shadow:0 0 0 3px #1d2943,0 0 0 5px #efebe4,0 6px 12px rgba(8,12,20,.5)}.ds-sw:focus-visible{outline:3px solid var(--chalk,#7fb6ff);outline-offset:6px}"
+    },
+    {
+      "name": "Proof Photo",
+      "kind": "card",
+      "description": "Work photo frame with a trim baseboard band pinned to its bottom edge; no caption.",
+      "html": "<div class=\"ds-photo\"><div class=\"ds-photo-img\"></div></div>",
+      "css": ".ds-photo{position:relative;overflow:hidden;max-width:320px;border-radius:14px;background:var(--wall-2,#253353);box-shadow:0 18px 40px rgba(6,10,24,.45)}.ds-photo-img{aspect-ratio:800/1062;background:linear-gradient(#1d2943 0 62%,#c4b6a6 62%)}.ds-photo::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:14px;background:linear-gradient(#efebe4,#dcd6cc);box-shadow:0 -3px 8px rgba(20,16,10,.25)}"
+    },
+    {
+      "name": "Chalk-Line Divider",
+      "kind": "custom",
+      "description": "Section divider: chalk-blue powder stroke under a trim string (static snapshot; the string is animated in the build).",
+      "html": "<svg class=\"ds-chalk\" viewBox=\"0 0 600 56\" preserveAspectRatio=\"none\"><filter id=\"ds-chalky\" x=\"0\" y=\"0\" width=\"600\" height=\"56\" filterUnits=\"userSpaceOnUse\"><feTurbulence type=\"fractalNoise\" baseFrequency=\".9 .35\" numOctaves=\"2\" seed=\"4\"/><feDisplacementMap in=\"SourceGraphic\" scale=\"5\"/></filter><path class=\"ds-powder\" d=\"M24 28 L576 28\" filter=\"url(#ds-chalky)\"/><path class=\"ds-string\" d=\"M24 28 L576 28\"/></svg>",
+      "css": ".ds-chalk{display:block;width:100%;height:56px;background:var(--wall,#1d2943)}.ds-powder{stroke:var(--chalk,#7fb6ff);stroke-width:5;fill:none;opacity:.9}.ds-string{stroke:var(--trim,#efebe4);stroke-width:1.6;fill:none;opacity:.35}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Finished Basement",
+    "overview": "The page is the room from their own job photo: a navy wall, a white baseboard, and fresh greige carpet with vacuum lines in it. The wall is the ground on every screen. Trim-white carries type and the primary button. The carpet appears as the hero floor, the photo and the step numerals. The installer's kit supplies the rest: a showroom swatch ring, the blue chalk line snapped to mark a straight edge, and their stencil logo recolored as a mask.\n\nThe page is dense but calm: one column on a phone, heavy uppercase headings, and generous rows and fields sized for a thumb in Facebook's in-app browser. Blue appears only when the visitor does something (hover, focus, form outlines, the chalk powder). The two effects are both real materials you can touch: you brush the carpet pile, and the chalk string twangs when you cross it.",
+    "keyCharacteristics": [
+      "Navy-wall ground, never black; trim-white is the light, not pure white.",
+      "One accent (chalk blue), shown only on interaction and in the chalk-line powder.",
+      "System sans at weight 900, uppercase, tight leading for headings; 17px body.",
+      "Real-material motion only: carpet nap and a chalk-line string, sharing one rAF loop.",
+      "Thumb-sized controls: 44px minimum hit area, 56px buttons, 72px service rows."
+    ],
+    "rules": [
+      {
+        "name": "The Accent-On-Touch Rule",
+        "body": "Chalk blue appears only on hover, focus, form outlines and chalk powder. Nothing is blue at rest; an arrow or button that is blue by default is a bug.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wall-Not-Black Rule",
+        "body": "Dark surfaces step through `wall`, `wall-2` and `wall-3`. Don't add black or neutral grays; shadows are tinted navy (`rgba(6,10,24,…)`) or warm brown over carpet (`rgba(20,16,10,…)`).",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Steps Rule",
+        "body": "Fixed text uses 13.5px, 17px or the 17–20px lede, and only headings use clamps. 13.5px is for short labels and the one-line note under the send button, never for body copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Real-Shadow Rule",
+        "body": "A shadow means an object casts it: trim, a swatch, a panel, a framed photo. Rows, chips and text get no shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep chalk blue for hover, focus, form outlines and chalk powder only (The Accent-On-Touch Rule).",
+      "**Do** give every form control (inputs, textarea, chips, form buttons) a chalk outline or border on both hover and focus.",
+      "**Do** keep the phone number in the header's top-right as a `tel:` link, once on the first screen. The footer and the post-send note can repeat it.",
+      "**Do** keep the hero to one short display headline, the promise, and one Fill plus one Line button.",
+      "**Do** put the Facebook Line button directly under the work photos, and in the footer.",
+      "**Do** keep tap targets at least 44px, buttons at least 56px, and rows at least 72px.",
+      "**Do** tune motion through the named constants above, not by rewriting the loops.",
+      "**Do** keep hover styles inside `@media (hover:hover)`."
+    ],
+    "donts": [
+      "**Don't** outline, tint or shadow a service row on hover or focus; only its arrow changes.",
+      "**Don't** make non-interactive labels look like chips or buttons. Towns, tags and service lists are plain text; chips exist only as form radios.",
+      "**Don't** put a Call button under the hero title, a sticky bottom contact bar, or any email link outside the footer.",
+      "**Don't** let canvas texture, chalk lines or the baseboard run behind text. The hint keeps its glow, and the copy stays above the floor.",
+      "**Don't** add captions under photos or a lede sentence above them.",
+      "**Don't** add effects that don't read as a real flooring material or tool (no sheens, films or glints over the photo).",
+      "**Don't** introduce a second accent color or pure black/white surfaces."
+    ]
+  }
+}
