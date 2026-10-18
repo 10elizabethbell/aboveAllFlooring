@@ -14,6 +14,8 @@ colors:
   carpet: "#c4b6a6"
   chalk: "#7fb6ff"
   err: "#ffb4a8"
+  hint-dark: "#fff"
+  carpet-shadow: "rgba(25,22,18,.26)"
 typography:
   display:
     fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
@@ -48,12 +50,23 @@ typography:
     fontSize: "17px"
     fontWeight: 800
     lineHeight: 1
+  step-numeral:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(34px, 9vw, 44px)"
+    fontWeight: 900
+    lineHeight: 1
+  step-title:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(20px, 5.4vw, 26px)"
+    fontWeight: 900
+    lineHeight: 0.98
   small:
     fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
     fontSize: "13.5px"
     fontWeight: 700
     lineHeight: 1.1
 rounded:
+  focus: "6px"
   swatch: "9px"
   field: "10px"
   button: "12px"
